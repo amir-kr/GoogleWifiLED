@@ -1,4 +1,4 @@
-# Google Wifi LED Passwall2
+# Sync Google Wifi LEDs With Passwall2
 
 ## 🛠 Fast Install
 
