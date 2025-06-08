@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ournode=`uci get passwall2.myshunt.default_node`
+ournode=`/usr/local/LED/get.sh`
 
 CONFIG=passwall2
 LOG_FILE=/tmp/log/$CONFIG.log
