@@ -21,6 +21,9 @@ chmod +x led.sh
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/GoogleWifiLED/refs/heads/main/test.sh
 sleep 1
 chmod +x test.sh
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/GoogleWifiLED/refs/heads/main/shoe.sh
+sleep 1
+chmod +x shoe.sh
 
 TARGET_LINE="/usr/local/LED/led.sh &"
 RC_LOCAL="/etc/rc.local"
