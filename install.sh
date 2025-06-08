@@ -9,6 +9,8 @@ mkdir /usr/local/LED/
 
 cd /usr/local/LED/
 
+rm *
+
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/GoogleWifiLED/refs/heads/main/choe.sh
 sleep 1
 chmod +x choe.sh
