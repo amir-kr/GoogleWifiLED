@@ -5,7 +5,7 @@ GREEN="/sys/class/leds/LED0_Green"
 BLUE="/sys/class/leds/LED0_Blue"
 
 get_ping_value() {
-  OUTPUT=$(sh /root/test.sh url_test_node %s %s)
+  OUTPUT=$(sh /usr/local/LED/test.sh url_test_node %s %s)
 
   PING_RAW=$(echo "$OUTPUT" | cut -d ':' -f2)
 
