@@ -52,7 +52,7 @@ while true; do
 
   if [ "$PING" = "0000" ] || [ "$PING" = "0" ]; then
     set_color red_blink
-  elif [ "$PING" -ge 1200 ]; then
+  elif [ "$PING" -ge 1500 ]; then
     set_color red
   elif [ "$PING" -ge 1100 ]; then
     set_color yellow
