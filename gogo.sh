@@ -1,8 +1,6 @@
 #!/bin/sh
 
-# بررسی وضعیت اجرای Passwall2 یا ابزارهای وابسته
 check_passwall2_status() {
-    # دریافت وضعیت Passwall2 از طریق ubus
     status=$(ubus call luci.passwall2 get_status 2>/dev/null)
 
     if [ -n "$status" ]; then
@@ -13,7 +11,6 @@ check_passwall2_status() {
         fi
     fi
 
-    # بررسی اجرای پردازش xray، v2ray یا sing-box
     if pgrep -f "xray" > /dev/null || \
        pgrep -f "v2ray" > /dev/null || \
        pgrep -f "sing-box" > /dev/null; then
@@ -25,5 +22,4 @@ check_passwall2_status() {
     fi
 }
 
-# اجرای تابع
 check_passwall2_status
