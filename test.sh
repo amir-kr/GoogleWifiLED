@@ -2,7 +2,7 @@
 
 ournode=`/usr/local/LED/get.sh`
 
-CONFIG=passwall2
+CONFIG=passwall1
 LOG_FILE=/tmp/log/$CONFIG.log
 
 echolog() {
