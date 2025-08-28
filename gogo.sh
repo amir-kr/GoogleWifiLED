@@ -1,7 +1,7 @@
 #!/bin/sh
 
-check_passwall2_status() {
-    status=$(ubus call luci.passwall2 get_status 2>/dev/null)
+check_passwall1_status() {
+    status=$(ubus call luci.passwall1 get_status 2>/dev/null)
 
     if [ -n "$status" ]; then
         echo "$status" | grep -q '"running":true'
@@ -22,4 +22,4 @@ check_passwall2_status() {
     fi
 }
 
-check_passwall2_status
+check_passwall1_status
