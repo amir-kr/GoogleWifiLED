@@ -11,22 +11,22 @@ cd /usr/local/LED/
 
 rm *
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/GoogleWifiLED/refs/heads/main/choe.sh
+wget https://raw.githubusercontent.com/amir-kr/GoogleWifiLED/refs/heads/main/choe.sh
 sleep 1
 chmod +x choe.sh
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/GoogleWifiLED/refs/heads/main/gogo.sh
+wget https://raw.githubusercontent.com/amir-kr/GoogleWifiLED/refs/heads/main/gogo.sh
 sleep 1
 chmod +x gogo.sh
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/GoogleWifiLED/refs/heads/main/led.sh
+wget https://raw.githubusercontent.com/amir-kr/GoogleWifiLED/refs/heads/main/led.sh
 sleep 1
 chmod +x led.sh
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/GoogleWifiLED/refs/heads/main/test.sh
+wget https://raw.githubusercontent.com/amir-kr/GoogleWifiLED/refs/heads/main/test.sh
 sleep 1
 chmod +x test.sh
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/GoogleWifiLED/refs/heads/main/shoe.sh
+wget https://raw.githubusercontent.com/amir-kr/GoogleWifiLED/refs/heads/main/shoe.sh
 sleep 1
 chmod +x shoe.sh
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/GoogleWifiLED/refs/heads/main/get.sh
+wget https://raw.githubusercontent.com/amir-kr/GoogleWifiLED/refs/heads/main/get.sh
 chmod +x get.sh
 sleep 1
 
