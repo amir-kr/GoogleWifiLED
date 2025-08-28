@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-node=$(uci get passwall2.@global[0].node 2>/dev/null)
+node=$(uci get passwall1.@global[0].node 2>/dev/null)
 
 if [ -z "$node" ]; then
   echo "node is empty or not found"
@@ -9,7 +9,7 @@ if [ -z "$node" ]; then
 fi
 
 
-default_node=$(uci get passwall2."$node".default_node 2>/dev/null)
+default_node=$(uci get passwall1."$node".default_node 2>/dev/null)
 
 if [ -n "$default_node" ]; then
   echo "$default_node"
